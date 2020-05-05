@@ -1,5 +1,5 @@
 
-<h1>Git Deploy a website</h1>
+<h1>Git Deploy a website to Cpanel</h1>
 e.g webserver: ssh root@example.com
 <ul>
   <li>
