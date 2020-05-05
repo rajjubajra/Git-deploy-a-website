@@ -4,7 +4,7 @@
 e.g webserver: ssh root@example.com
 <ul>
   <li>
-    <p>Set location to push and pull code to the remote server</p>
+    <p>[Set location to push and pull code to the remote server]</p>
     root@example:/var/repo# mkdir test_repo.com.git
   </li>
   <li>root@example:/var/repo# cd test_repo.com.git</li>
@@ -19,6 +19,17 @@ e.g webserver: ssh root@example.com
   </li>
   <li>[give executable permission to the operating system]</li>
   <li>root@example:/var/repo/test_repo.com.git/hooks# chmod +x post-receive</li>
+  <li>root@example:/var/repo/test_repo.com.git/hooks# exit</li>
   <li>[Now we can push code to the remote server]</li>
-  
+  <li>[Local-computer-terminal/ folder]</li>
+  <li>git init</li>
+  <li>[add live target to push to the remove site]</li>
+  <li>git remote add live ssh://root@example.com/var/repo/test_repo.com.git</li>
+  <li>[add some codes or file]</li>
+  <li>git add .</li>
+  <li>git status</li>
+  <li>git commit -m "initial commit"</li>
+  <li>git push live master</li>
+  <li>[we should see the updated file in romote server]</li>
+    
   </ul>
