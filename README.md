@@ -1,7 +1,7 @@
 
 <h1>Git Deploy a website to Cpanel</h1>
 
-<p>source: <a href="https://youtu.be/9qIK8ZC9BnU">Kyle Robinson Young</a></p>
+<p>source: <a href="https://youtu.be/9qIK8ZC9BnU" target="_blank">Kyle Robinson Young</a></p>
 
 e.g webserver: ssh root@example.com
 <ul>
