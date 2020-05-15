@@ -16,7 +16,7 @@ e.g webserver: ssh root@example.com
   <li>[this will open Bash Shell, type following bash script in to the bash shell]</li>
   <li>#!/bin/sh<br />
     git --work-tree=/var/public_html/test_repo.com --git-dir=var/repo/test_repo.com.git checkout -f
-    <br /> [note: <i>var/public_html/test_repo.com</i> is where code will be deployed and <i>var/repo/test_repo.com.git</i> is where where code is pushed, these are two different folders]
+    <br /> [note: <i>"var/public_html/test_repo.com"</i> is where code will be deployed and <i>"var/repo/test_repo.com.git"</i> is where where code is pushed, these are two different folders]
     <br />[press 'esc' key]
     <br />[type :wq on bash shell]
   </li>
