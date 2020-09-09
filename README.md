@@ -22,11 +22,11 @@
   <li>[give executable permission to the operating system]</li>
   <li>root@example:/var/repo/test_repo.com.git/hooks# chmod +x post-receive</li>
   <li>root@example:/var/repo/test_repo.com.git/hooks# exit</li>
+  <li>[Now we can push code to the remote server]</li>
 </ul>
 
   <h3>Local Computer</h3>
  <ul>
-  <li>[Now we can push code to the remote server]</li>
   <li>[Local-computer-terminal/ folder]</li>
   <li>git init</li>
   <li>[add live target to push to the remove site]</li>
