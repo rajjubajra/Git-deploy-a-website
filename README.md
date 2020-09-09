@@ -3,11 +3,12 @@
 
 <p>source: <a href="https://youtu.be/9qIK8ZC9BnU" target="_blank">Kyle Robinson Young</a></p>
 
-e.g webserver: ssh root@example.com
+
 
 <h1>Git Deploy Website to Cpanel</h1>
 <p>[Set location to push and pull code to the remote server]</p>
 <h3>Remote Server</h3>
+<p>e.g webserver: ssh root@example.com</p>
 <ul>
   <li>root@example:/var/repo# mkdir test_repo.com.git</li>
   <li>root@example:/var/repo# cd test_repo.com.git</li>
