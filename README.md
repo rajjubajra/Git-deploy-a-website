@@ -4,11 +4,12 @@
 <p>source: <a href="https://youtu.be/9qIK8ZC9BnU" target="_blank">Kyle Robinson Young</a></p>
 
 e.g webserver: ssh root@example.com
+
+<h1>Git Deploy Website to Cpanel</h1>
+<p>[Set location to push and pull code to the remote server]</p>
+<h3>Remote Server</h3>
 <ul>
-  <li>
-    <p>[Set location to push and pull code to the remote server]</p>
-    root@example:/var/repo# mkdir test_repo.com.git
-  </li>
+  <li>root@example:/var/repo# mkdir test_repo.com.git</li>
   <li>root@example:/var/repo# cd test_repo.com.git</li>
   <li>root@example:/var/repo/test_repo.com.git# git init --bare</li>
   <li>root@example:/var/repo/test_repo.com.git# cd hooks</li>
@@ -23,6 +24,10 @@ e.g webserver: ssh root@example.com
   <li>[give executable permission to the operating system]</li>
   <li>root@example:/var/repo/test_repo.com.git/hooks# chmod +x post-receive</li>
   <li>root@example:/var/repo/test_repo.com.git/hooks# exit</li>
+</ul>
+
+  <h3>Local Computer</h3>
+ <ul>
   <li>[Now we can push code to the remote server]</li>
   <li>[Local-computer-terminal/ folder]</li>
   <li>git init</li>
@@ -33,6 +38,5 @@ e.g webserver: ssh root@example.com
   <li>git status</li>
   <li>git commit -m "initial commit"</li>
   <li>git push live master</li>
-  <li>[we should see the updated file in romote server]</li>
-    
+  <li>[we should see the updated file in romote server]</li>   
   </ul>
